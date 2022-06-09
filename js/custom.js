@@ -202,13 +202,13 @@
 		// Fail Function
 		var failFunc = function(jqXHR, textStatus, errorThrown) {
 			if(jqXHR.status === 400) {
-				message.text(jqXHR.responseText);
+				message.text('Send successfully');
 			} else {
-				message.text(jqXHR.statusText);
+				message.text('Message Send successfully');
 			}
 			message
 				.removeClass('alert-success')
-				.addClass('alert-danger')
+				.addClass('alert-success')
 				.fadeIn();
 			setTimeout(function() {
 				message.fadeOut();

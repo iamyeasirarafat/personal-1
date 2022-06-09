@@ -37,7 +37,22 @@ body {
   font-family: "Open Sans", "Segoe UI", sans-serif;
   font-size: 14px;
 }
-
+.custom-button{
+  position: absolute;
+  top: 20px;
+  left: 60px;
+}
+.custom-button a{
+  color: white;
+    padding: 9px 15px;
+    border: 2px dashed;
+    border-radius: 35px;
+    transition: all .5s;
+}
+.custom-button a:hover{
+  border: 2px solid;
+    border-radius: 8px;
+}
 a,
 a:hover,
 a:focus {
