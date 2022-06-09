@@ -161,7 +161,7 @@
     backDelay: 500,
     startDelay: 1000,
 				
-		        strings: ['Web Designer', 'Wordpress Developer', 'Freelancer' ],
+		        strings: ['Front-end Developer', 'React Js Developer', 'MERN Stack Developer' ],
 		        breakLines: false,
 		        loop: true
 			});
